@@ -1,0 +1,16 @@
+[
+    {
+        "ip": "185.244.25.10",
+        "country": "Unknown",
+        "abuseScore": 0,
+        "blacklisted": "YES",
+        "detectedAs": "Brute-force"
+    },
+    {
+        "ip": "193.32.162.157",
+        "country": "Unknown",
+        "abuseScore": 0,
+        "blacklisted": "NO",
+        "detectedAs": "Scanning"
+    }
+]

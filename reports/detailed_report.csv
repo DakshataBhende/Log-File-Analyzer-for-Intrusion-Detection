@@ -1,0 +1,3 @@
+IP,Country,Abuse Score,Blacklisted,Detected As
+185.244.25.10,Unknown,0,YES,Brute-force
+193.32.162.157,Unknown,0,NO,Scanning
