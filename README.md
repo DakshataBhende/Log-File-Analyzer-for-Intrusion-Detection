@@ -1,7 +1,7 @@
 # Log File Analyzer for Intrusion Detection
 A Python-based tool to parse Apache log files, detect suspicious activity (Brute-force, Scanning, DoS), check IPs against a blacklist and AbuseIPDB, and generate detailed CSV, JSON, and visual reports.
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 log_analyzer_advanced/
 ├── blacklist/
@@ -17,15 +17,15 @@ log_analyzer_advanced/
 └── requirements.txt # Python dependencies
 ```
 
-## 🔍 Features
-- ✅ Parses Apache log files  
-- 🚨 Detects brute-force, DoS, and scanning behavior  
-- 🧠 Integrates with [AbuseIPDB](https://www.abuseipdb.com/) for IP reputation  
-- 🔒 Uses a local blacklist for known bad IPs  
-- 📊 Generates visual and structured reports  
-- 💡 Works on standard Apache access logs  
+## Features
+- Parses Apache log files  
+- Detects brute-force, DoS, and scanning behavior  
+- Integrates with [AbuseIPDB](https://www.abuseipdb.com/) for IP reputation  
+- Uses a local blacklist for known bad IPs  
+- Generates visual and structured reports  
+- Works on standard Apache access logs  
 
-## ⚙ Setup & Installation
+## Setup & Installation
 ### 1. Clone the Repo
 ```bash
 git clone https://github.com/yourusername/log_analyzer_advanced.git
@@ -40,7 +40,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-## 🔐 .env Setup
+## .env Setup
 Create a .env file in the root directory:
 ```bash
 touch .env
@@ -60,7 +60,7 @@ load_dotenv()
 ABUSEIPDB_API_KEY = os.getenv("ABUSEIPDB_API_KEY")
 ```
 
-## 🧪 Usage
+## Usage
 Run the tool:
 ```bash
 python main.py
@@ -74,7 +74,7 @@ Once complete, check the reports/ folder for:
 - detailed_report.json
 - ip_chart.png
 
-## 📈 Detection Logic	
+## Detection Logic	
 
 - Checked against the blacklist
 
@@ -82,7 +82,7 @@ Once complete, check the reports/ folder for:
 
 - Tagged with detection type(s)
 
-## 📦 Dependencies
+## Dependencies
 Add this to your requirements.txt:
 
 requests
